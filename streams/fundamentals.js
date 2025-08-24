@@ -16,6 +16,16 @@
 
 // process.stdin.pipe(process.stdout)
 
+// Testes
+// Unitários: unidade da sua aplicação
+// Integração: comunicação entre duas ou mais unidades
+// E2E - ponta a ponta: sumulam um usuário operando na nossa aplicação
+
+// front-end: abre a página de login, digite o texto vinicius@gmail.com no campo com ID email, clique no botão
+// back-end: chamadas HTTP, WebSockets
+
+// Pirâmide de testes: E2E (não dependem de nenhuma tecnologia, não dependem  de arquitetura)
+
 import { Readable, Writable, Transform } from 'node:stream'
 
 class OneToHundredStream extends Readable{
