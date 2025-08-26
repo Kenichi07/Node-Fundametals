@@ -116,6 +116,10 @@ Por exemplo, em um sistema de comércio eletrônico, um evento de domínio pode 
 Eventos de domínio são importantes porque permitem que diferentes partes do sistema sejam notificadas e atualizadas quando ocorrem mudanças importantes no domínio. Eles também permitem que o sistema seja projetado de forma mais modular e escalável, pois diferentes partes do sistema podem ser projetadas para reagir a diferentes tipos de eventos, de forma independente.
 */
 
+// SOLID 
+// D - Dependency Inversion Principle
+// 
+
 import { Readable, Writable, Transform } from 'node:stream'
 
 class OneToHundredStream extends Readable{
